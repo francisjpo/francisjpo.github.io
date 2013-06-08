@@ -72,8 +72,8 @@ h1 {
 }
 
 .header {
-    margin-left: 1.35em;
     font-size: 110%;
+    text-align: center;
 }
 
 .header h1 a {

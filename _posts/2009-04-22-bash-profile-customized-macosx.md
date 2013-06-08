@@ -7,8 +7,7 @@ slug: bash-profile-customized-macosx
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: programming
 ---
 
 A few years ago I even had a smiley :) vs. :(

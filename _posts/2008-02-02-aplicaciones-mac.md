@@ -7,8 +7,7 @@ slug: aplicaciones-mac
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 Las aplicaciones básicas que utilizo en el día a día se resumen en seis o siete, de las cuales, la mitad, ya vienen con Mac OS X.

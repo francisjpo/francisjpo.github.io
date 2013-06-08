@@ -7,8 +7,7 @@ slug: poniendo-orden-gtd
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: general
 ---
 
 Llevo aplicando las directrices de lo que, [David Allen](http://www.davidco.com) denominó como [GTD](http://es.wikipedia.org/wiki/Getting_Things_Done) — acrónimo de *Getting Things Done* — desde hace algo más de un año. La forma y el método de este arte espero que sirvan para futuras y recientes entradas de esta bitácora que tengo como consulta asidua.

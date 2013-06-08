@@ -6,9 +6,9 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="author" content="Francisco Pinto" />
+        <meta name="author" content="{{ site.author.name }}" />
         <meta name="keywords" content="ruby, rails, mac, iphone, ipad, tech"/>
-        <meta name="description" content="Thoughts on life, software development, Macs and technlogy."/>
+        <meta name="description" content="{{ site.description }}"/>
         <meta name="robots" content="index,follow"/>
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="/css/normalize.css" />
@@ -17,7 +17,24 @@
         <link rel="shortcut icon" href="/images/favicon.png" />
         <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png"/>
         <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
-        <style>a, .date span { color: #{{ page.color }}; }</style>
+        <style>
+            a, .date span {
+                {% case page.type %}
+                    {% when 'general' %}
+                        color: #0062ff;
+                    {% when 'home' %}
+                        color: #fc1c66;
+                    {% when 'mac' %}
+                        color: #ad23b6;
+                    {% when 'programming' %}
+                        color: #fc1c66;
+                    {% when 'sysadmin' %}
+                        color: #fc1c66;
+                    {% else %}
+                        color: #a69f0f;
+                {% endcase %}
+            }
+        </style>
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
@@ -39,11 +56,20 @@
             </nav>
             <div class="image-wrapper">
             <img src="/images/space.gif" alt="" />
-                {% if page.image == nil %}
-                    <div class="image" style="background-image: url(/images/headers/bern.jpg);"></div>
+                {% case page.type %}
+                    {% when 'general' %}
+                        <div class="image" style="background-image: url(/images/headers/general.jpg);"></div>
+                    {% when 'home' %}
+                        <div class="image" style="background-image: url(/images/headers/home.jpg);"></div>
+                    {% when 'mac' %}
+                        <div class="image" style="background-image: url(/images/headers/mac.jpg);"></div>
+                    {% when 'programming' %}
+                        <div class="image" style="background-image: url(/images/headers/programming.jpg);"></div>
+                    {% when 'sysadmin' %}
+                        <div class="image" style="background-image: url(/images/headers/sysadmin.jpg);"></div>
                     {% else %}
-                    <div class="image" style="background-image: url(/images/{{ page.image }});"></div>
-                {% endif %}
+                        <div class="image" style="background-image: url(/images/headers/me-luebbenau.jpg);"></div>
+                {% endcase %}
             </div>
         </header>
         <div class="wrapper clearfix">
@@ -51,22 +77,32 @@
                 {{ content }}
                 <div class="author clearfix">
                     {% if page.link == 'home' %}
-                        <a class="clip" href="/"><img src="/images/headshot.jpg" alt="Francisco Pinto"></a>
-                        <h3><a href="/">Francisco Pinto</a></h3>
+                        <a class="clip" href="/"><img src="/images/headshot.jpg" alt="{{ site.author.name }}"></a>
+                        <h3><a href="/">{{ site.author.name }}</a></h3>
                     {% else %}
-                        <a class="clip" href="/about.html"><img src="/images/headshot.jpg" alt="Francisco Pinto"></a>
-                        <h3><a href="/about.html">Francisco Pinto</a></h3>
+                        <a class="clip" href="/about.html"><img src="/images/headshot.jpg" alt="{{ site.author.name }}"></a>
+                        <h3><a href="/about.html">{{ site.author.name }}</a></h3>
                     {% endif %}
                     <p>General Engineer</p>
                 </div>
                 <div class="meta clearfix">
                     <div class="contact">
-                        <p><a href="http://franciscopinto.me">résumé</a></p>
-                        <p><a href="http://twitter.com/francisjpo">twitter</a></p>
+                        <p>subscribe to my <a href="/atom.xml">feed rss</a></p>
+                        <p>follow me on <a href="http://twitter.com/francisjpo">twitter</a></p>
                     </div>
                     <div class="contact right">
-                        <p><script src="/css/address.js"></script></p>
+                        <p>write me an <script src="/css/address.js"></script></p>
                         <p>powered by <a href="https://github.com/mojombo/jekyll">jekyll</a></p>
+                    </div>
+                    <div class="search">
+                        {% if site.simple_search %}
+                            <form action="{{ site.simple_search }}" method="get">
+                            <fieldset role="search">
+                                <input type="hidden" name="sites" value="blog.franciscopinto.me" />
+                                <input class="search" type="text" name="q" results="0" placeholder="Search&hellip;"/>
+                            </fieldset>
+                            </form>
+                        {% endif %}
                     </div>
                 </div>
             </div>

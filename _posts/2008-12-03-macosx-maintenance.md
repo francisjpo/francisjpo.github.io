@@ -7,8 +7,7 @@ slug: macosx-maintenance
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: programming
 ---
 
 Open **Terminal.app** and type:

@@ -7,8 +7,7 @@ slug: moving-to-calepin
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: sysadmin
 ---
 
 I am a little tired of using complex blogging systems, plenty of features that I hardly needed. I didn't and don't use that extremely interconnected social layer or widgets, so I have moved to a new and snappy publishing platform. Its name is [Calepin](http://calepin.co) — notebook in French — and works converting your Markdown-formatted files stored in your Dropbox account into posts[^fn1].

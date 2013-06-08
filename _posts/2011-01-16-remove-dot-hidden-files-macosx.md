@@ -7,8 +7,7 @@ slug: remove-dot-hidden-files-macosx
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 Open **Terminal.app**:

@@ -7,8 +7,7 @@ slug: top-ten-tv-series
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: general
 ---
 
 TV series are at their best. They have more time to develop the plot and Internet is the medium they needed to expand. Now the best actors move from theaters to our homes, largely due to broadcasters such as HBO or BBC.

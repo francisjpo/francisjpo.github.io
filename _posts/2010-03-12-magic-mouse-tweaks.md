@@ -7,8 +7,7 @@ slug: magic-mouse-tweaks
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 The Magic Mouse is a great multitouch mouse, but the lack of options in System Preferences decrease its potential.

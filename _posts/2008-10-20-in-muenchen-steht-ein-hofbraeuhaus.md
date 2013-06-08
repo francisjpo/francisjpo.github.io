@@ -7,8 +7,7 @@ slug: in-muenchen-steht-ein-hofbraeuhaus
 author: Francisco Pinto
 layout: post
 location: München, Germany
-image:
-color:
+type: home
 ---
 
 > In München steht ein Hofbräuhaus: Eins, zwei, g’suffa...

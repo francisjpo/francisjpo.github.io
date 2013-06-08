@@ -7,8 +7,7 @@ slug: installing-upgrading-rails-on-mac-alternative
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: programming
 ---
 
 XCode — default install — is a must.

@@ -7,8 +7,7 @@ slug: karneval-carnaval
 author: Francisco Pinto
 layout: post
 location: Köln, Germany
-image: /headers/koeln.jpg
-color:
+type: home
 ---
 
 Conocida como *die fünfte Jahreszeit* — la quinta estación — es la época del año en la que los alemanes se dejan llevar por el sentimiento festivo de la fecha y dan paso a alegría — die Fröhlichkeit — y al desenfado — die Ausgelassenheit. Este periodo abarca desde noviembre — en concreto, en Colonia el 11 de noviembre a las 11:11h, am Elften im Elften um Elf Uhr Elf, otras regiones a partir del 7 de enero — hasta el Miércoles de Ceniza — der Aschermittwoch.

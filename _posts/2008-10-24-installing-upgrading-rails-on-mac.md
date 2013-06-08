@@ -7,8 +7,7 @@ slug: installing-upgrading-rails-on-mac
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: programming
 ---
 
 Since Rails is actually built-in to Leopard[^fn1], we only need to update the gems[^fn2] :

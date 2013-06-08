@@ -7,8 +7,7 @@ slug: koenigswinter
 author: Francisco Pinto
 layout: post
 location: Königswinter, Germany
-image: headers/koeln.jpg
-color: 7a3000
+type: home
 ---
 
 Es una pequeña ciudad utilizada como balneario y residencia de verano (der König: Rey; der Winter: Invierno) que pertenece al estado de Nordrhein-Westfalen, muy cercana a Bonn, y situada a los pies de las Siete Colinas (Siebengebirge): Drachenfels, Petersberg, Löwenburg, Ölberg, Wolkenburg, Nonnenstromberg y Lohrberg. El atractivo turístico de esta ciudad es la Drachenfels (Roca del Dragón), sobre la que se sitúan las ruinas del Castillo del Arzobispo de Colonia, que data del siglo XII. Para subir al pico de la Drachenfels (321m. de altura), además de ir andando por un bonito camino, podemos utilizar el tren de cremallera (Drachenfelsbahn) más antiguo de Alemania (1883). A medio camino se puede ver el Schloss Drachenburg (Castillo de Dragonburgo) de estilo neogótico de finales del siglo XIX.

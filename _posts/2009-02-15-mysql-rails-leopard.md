@@ -6,6 +6,8 @@ date: 2009-02-15 22:15
 slug: mysql-rails-leopard
 author: Francisco Pinto
 layout: post
+location: Málaga, Spain
+type: programming
 ---
 
 A simple receipt in order to use MySQL on Rails.

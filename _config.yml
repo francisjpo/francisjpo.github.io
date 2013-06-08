@@ -2,7 +2,10 @@ markdown: kramdown
 pygments: true
 url: http://blog.franciscopinto.me
 title: Francisco Pinto
-author: Francisco Pinto
-description: "Engineer, proud dad, Apple enthusiast, tech and cinnamon tea lover. Sometimes I design stuff that works."
-production_url : http://blog.franciscopinto.me
+description: "Thoughts on life, software development, Macs and technlogy."
+production_url: http://blog.franciscopinto.me
 simple_search: http://www.duckduckgo.com/
+author :
+  name : Francisco Pinto
+  github : francisjpo
+  twitter : francisjpo

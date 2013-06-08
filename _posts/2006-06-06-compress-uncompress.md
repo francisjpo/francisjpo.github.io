@@ -7,8 +7,7 @@ slug: compress-uncompress-unix
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: sysadmin
 ---
 
 Although I have done it many times, I always forget how to compress a file or folder using the command line. So this entry will be a receipt in order to quickly look it up.

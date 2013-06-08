@@ -7,8 +7,7 @@ slug: welcome-to-my-blog
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image: headers/reichstag.jpg
-color: 7a3000
+type: general
 ---
 
 

@@ -7,8 +7,7 @@ slug: koeln-colonia
 author: Francisco Pinto
 layout: post
 location: Köln, Germany
-image: headers/koeln.jpg
-color: 7a3000
+type: home
 ---
 
 Colonia es la ciudad más grande de [Nordrhein-Westfalen](http://de.wikipedia.org/wiki/Nordrhein-Westfalen). Se habla un dialecto conocido como Kölsch que, además coincide en nombre con la cerveza típica de allí. Como dicen aquí, tienen el único dialecto que además puede beberse.

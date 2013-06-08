@@ -7,8 +7,7 @@ slug: expose-modes-macosx
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 All Exposé modes are controlled by the F3 key.

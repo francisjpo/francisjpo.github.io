@@ -56,7 +56,7 @@ html {
 
 body {
     background-color: #f2f2f0;
-    font: 20px/30px Rokkitt, Georgia, Cambria, "Times New Roman", Times, serif;
+    font: 20px/30px Rokkitt, Georgia, Cambria, serif;
 }
 
 a {
@@ -234,7 +234,7 @@ code {
 }
 
 .contact p {
-    font-size: 0.7em;
+    font-size: 0.9em;
     margin: 0;
 }
 
@@ -242,13 +242,32 @@ code {
     width: 100%;
 }
 
+.search {
+    display: block;
+    font-size: 0.9em;
+    margin-top:10%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.markdown-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; /* you can use % */
+    height: auto;
+    max-width:100%;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 780px) {
 
-    html {
-        font-size: 18px;
-        line-height: 27px;
+    body {
+        font: 18px/28px Rokkitt, Georgia, Cambria, serif;
     }
 
     nav {
@@ -258,6 +277,10 @@ code {
 }
 
 @media only screen and (max-width: 480px) {
+
+    body {
+        font: 16px/26px Rokkitt, Georgia, Cambria, serif;
+    }
 
     .contact {
         float: none;

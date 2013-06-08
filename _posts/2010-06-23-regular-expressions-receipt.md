@@ -7,8 +7,7 @@ slug: regular-expressions-receipt
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: programming
 ---
 
 - Metacharacters: \ ^ $ . [ ] { } | ( ) * + ?

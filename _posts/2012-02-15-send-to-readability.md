@@ -7,8 +7,7 @@ slug: send-to-readability-from-google-reader
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: programming
 ---
 
 [Tweetbot](http://tapbots.com/software/tweetbot) for iPhone recently updated to 2.0 adding a new feature: now, when you open a link from within Tweetbot, you can view the linked page transformed into a cleaner and more readable version of itself.

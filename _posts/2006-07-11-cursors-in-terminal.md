@@ -7,8 +7,7 @@ slug: movimientos-en-terminal-app
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 Cuando uno está tan acostumbrado a usar un terminal y se encuentra que Terminal.app no es demasiado sofisticado, se pregunta cómo es posible que hayan descuidado tanto este tema en un sistema operativo tipo *NIX. El movimiento entre palabras o ir al principio/final de la línea de comandos, al menos en mi iBook, es tedioso.

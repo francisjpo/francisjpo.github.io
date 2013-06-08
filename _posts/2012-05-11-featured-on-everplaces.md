@@ -7,8 +7,7 @@ slug: featured-on-everplaces
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: general
 ---
 
 Everplaces team likes featuring on their blog with shorts blog posts from some of their users. A few weeks ago they gave me the chance to write one about my experiences travelling, how I use their app and topic of my choice. So I thought it was nice occasion to promote [Spanish gastronomy on Everplaces](http://blog.everplaces.com/post/22840287981/secrets-of-spanish-gastronomy-guest-post-by), which I would also like to reproduce here:

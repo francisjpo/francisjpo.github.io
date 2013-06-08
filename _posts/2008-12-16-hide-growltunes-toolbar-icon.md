@@ -7,8 +7,7 @@ slug: hide-growltunes-toolbar-icon
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 You can get rid of the GrowlTunes toolbar icon. Open **Terminal.app** and type:

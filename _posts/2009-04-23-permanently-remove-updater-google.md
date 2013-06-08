@@ -7,8 +7,7 @@ slug: permanently-remove-updater-google
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 There has been a fair amount of controversy around Google forcing users to install a background updater application before they can use Google Earth 5. A point of particular contention is that a user has no immediate control through the application interface to specify if or how often they want the Google updater service to activate.

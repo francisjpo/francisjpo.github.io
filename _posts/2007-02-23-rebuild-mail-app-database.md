@@ -7,8 +7,7 @@ slug: rebuild-mail-app-database
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 After many email transactions — incoming, sent and deleted messages — Mail.app grows a SQLite database called *Envelope Index* with tons of no longer useful information. Every time Mail.app is started, this index is checked and updated. The more it weights, the longer it takes to load. *Envelope Index* can be found in **~/Library/Mail folder**.

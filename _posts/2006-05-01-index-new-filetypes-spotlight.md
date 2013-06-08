@@ -7,8 +7,7 @@ slug: index-new-filetypes-spotlight
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: mac
 ---
 
 Sometimes I need to locate fragments of code which filetype is not indexed by Spotlight — mostly Ruby and Matlab — and I waste more my time looking for the file than locating the code itself. As they are usually plain text it is easy to index their content in Spotlight.

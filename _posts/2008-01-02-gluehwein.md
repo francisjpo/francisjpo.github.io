@@ -7,8 +7,7 @@ slug: gluehwein
 author: Francisco Pinto
 layout: post
 location: Málaga, Spain
-image:
-color:
+type: home
 ---
 
 [Glühwein](http://es.wikipedia.org/wiki/Glühwein) — literalmente vino ardiente, al rojo vivo — es una bebida muy típica en Alemania que suele beberse durante el periodo de Adviento. Si damos un paseo por mercadillos de Navidad (der Weihnachtsmarkt) como el de Nuremberg, veremos muchos puestos por la calle donde se sirve esta bebida bien caliente para soportar el frío.

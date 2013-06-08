@@ -10,5 +10,3 @@ License
 The content of this site is all personal and transferable under [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/2.0), brought to you by Francisco Pinto and loads of cinnamon tea.
 
 The design of this blog is my modified version of [Moz Morris’ theme](https://github.com/MozMorris/mozmorris.github.com).
-
-Header images belong to [fotogrph](http://fotogrph.com) and are licensed under Creative Commons.

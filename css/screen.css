@@ -55,7 +55,7 @@ html {
 }
 
 body {
-    background-color: #f2f2f0;
+    background-color: white;
     font: 20px/30px Rokkitt, Georgia, Cambria, serif;
 }
 
@@ -69,6 +69,16 @@ a:hover {
 
 h1 {
     line-height: 1em;
+}
+
+.header {
+    margin-left: 1.35em;
+    font-size: 110%;
+}
+
+.header h1 a {
+    color: #222;
+    text-decoration: none;
 }
 
 nav {
@@ -103,27 +113,6 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-}
-
-.image-wrapper {
-    /* max-height: 537px; */
-    max-height: 235px;
-    position: relative;
-}
-
-.image-wrapper img {
-    /* width: 100%; */
-    width: 40%;
-}
-
-.image-wrapper .image {
-    background-position: 50% 33%;
-    background-size: cover;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
 }
 
 .wrapper {
@@ -240,17 +229,6 @@ code {
 
 .scale img {
     width: 100%;
-}
-
-.search {
-    display: block;
-    font-size: 0.9em;
-    margin-top:10%;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    max-width: 100%;
 }
 
 .markdown-image {

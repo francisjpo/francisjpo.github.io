@@ -259,7 +259,9 @@ code {
     body {
         font: 16px/26px Rokkitt, Georgia, Cambria, serif;
     }
-
+    .header {
+        font-size: 90%;
+    }
     .contact {
         float: none;
     }

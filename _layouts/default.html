@@ -18,20 +18,20 @@
         <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png"/>
         <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lora:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
         <style>
-            a, .date span {
+            a, .main p a:hover, .main ul li.titleindex a:hover, .main ul li a:hover, .date span {
                 {% case page.type %}
                     {% when 'general' %}
-                        color: #0e447a;
+                        color: #2a5db0;
                     {% when 'home' %}
-                        color: #aa2820;
+                        color: #2200cc;
                     {% when 'mac' %}
-                        color: #28a58b;
+                        color: #57ad68;
                     {% when 'programming' %}
-                        color: #aa2820;
+                        color: #b5190e;
                     {% when 'sysadmin' %}
-                        color: #f48f46;
+                        color: #d17a3d;
                     {% else %}
-                        color: #0e447a;
+                        color: #2200CC;
                 {% endcase %}
             }
         </style>
@@ -46,7 +46,7 @@
             <nav>
                 <ul>
                     <li>
-                        {% if page.link == 'home' %}
+                        {% if page.link != 'about' %}
                           <a href="/">home</a>
                         {% else %}
                           <a href="/about.html">about</a>
@@ -56,9 +56,6 @@
             </nav>
         </header>
         <div class="wrapper clearfix">
-            <section class="header">
-                <h1><a href="/">franciscopinto.me</a></h1>
-            </section>
             <div class="main">
                 {{ content }}
                 <div class="author clearfix">

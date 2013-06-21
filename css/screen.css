@@ -71,16 +71,6 @@ h1 {
     line-height: 1em;
 }
 
-.header {
-    font-size: 110%;
-    text-align: center;
-}
-
-.header h1 a {
-    color: #222;
-    text-decoration: none;
-}
-
 nav {
     position: fixed;
     right: 10px;
@@ -116,7 +106,7 @@ nav a:hover {
 }
 
 .wrapper {
-    max-width: 680px;
+    max-width: 780px;
     margin: 0 auto 70px;
 }
 
@@ -144,6 +134,38 @@ article section.content {
 .main ol {
     margin-left: 1.35em;
     padding: 0;
+    list-style-type: none;
+}
+
+.main ul li.titleindex {
+    font-size: 115%;
+}
+
+.main ul li.titleindex a {
+    color: #222;
+    text-decoration: none;
+}
+
+.main ul li a {
+    color: #222;
+    text-decoration: underline;
+}
+
+.main ul li.titleindex a:hover {
+    text-decoration: none;
+}
+
+.main ul li.dateindex {
+    padding-bottom: 1.35em;
+}
+
+.main ul li.dateindex span {
+    font-size: 85%;
+}
+
+.main p a {
+    color: #333332;;
+    text-decoration: underline;
 }
 
 .main code {
@@ -258,10 +280,6 @@ code {
 
     body {
         font: 16px/26px Rokkitt, Georgia, Cambria, serif;
-    }
-    .header {
-        font-size: 100%;
-        text-align: left;
     }
 
     .contact {

@@ -12,7 +12,8 @@ type: home
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li class="titleindex"><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
     <li class="dateindex"><span>{{ post.date | date_to_string }}</span></li>
+    <li class="titleindex"><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+    <li class="excerptindex"><span>{{ post.excerpt }}</span></li>
   {% endfor %}
 </ul>

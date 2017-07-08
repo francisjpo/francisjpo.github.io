@@ -1,9 +1,6 @@
 markdown: kramdown
-pygments: true
-url: http://blog.franciscopinto.me
 title: Francisco Pinto
 description: "Thoughts on life, software development, Macs and technlogy."
-production_url: http://blog.franciscopinto.me
 simple_search: http://www.duckduckgo.com/
 author :
   name : Francisco Pinto
